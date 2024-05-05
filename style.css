@@ -1,0 +1,143 @@
+
+
+
+/* 
+list html style */
+*{
+    box-sizing: border-box;
+}
+.navbar{
+  display: flex;
+  flex-wrap: nowrap;
+  display: inline;
+  width: 100%;
+  height: 20px;
+  justify-content: space-between;
+  background-color: rgb(35, 111, 47);
+  color: chartreuse;
+}
+
+
+
+
+
+
+.header{
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+    background-color:#666;
+    color: white;
+    width: 100%;
+}
+.continer{
+    overflow: hidden;
+}
+
+
+.blog{
+float: left;
+width: 65%;
+height: 150px;
+background-color: chocolate;
+text-align: center;
+}
+.contact{
+    float: right;
+width:35%;
+height: 150px;
+background-color: blueviolet;
+text-align: center;
+text-transform:uppercase ;
+}
+.footer{
+  
+    background-color: rgb(112, 183, 42);
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+/* html element  */
+.footer{
+        color: green;
+        background-color: gold;
+        text-decoration: none;
+       font-weight: bold;   
+}
+a:hover {
+    color: red;
+   
+    text-decoration: underline;
+  }
+
+
+/* new leyout style */
+
+header{
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+      background-color:#666;
+      color: white;
+  }
+  
+
+.nav_list{
+    float: left;
+    width: 30%;
+    height: 300px;
+    background-color: rgb(97, 158, 156);
+    padding: 15px;
+    text-align: center;
+    
+}
+.nav_list, a{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+article{
+    float: left;
+    width: 69%;
+    height: 300px;
+    background-color: #f2d3d3;
+    padding: 15px;
+
+}
+section{
+  overflow: hidden;
+}
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 500px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+}
+
+
+
+  .footer{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+      background-color:#666;
+      color: white;
+  }
+  .footer:hover{
+    padding: 22px;
+    text-align: center;
+    font-size: 30px;
+      background-color:#52587c;
+      color: rgb(132, 198, 245);
+  }
+
